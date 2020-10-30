@@ -1,12 +1,13 @@
 Circuit: * \\S-MACBOOKPRO\SpaceTech_GARAGE\LTSpice\rsp02_LoadSW_OCP_Circuit_v1_2\rsp02_LoadSW_OCP_Circuit_v1_2.asc
 
 Iload_tran: both pins shorted together -- ignoring.
-Vioexpdr_tran: both pins shorted together -- ignoring.
-Vrrx_tran: both pins shorted together -- ignoring.
-Model "u1:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
-Model "u1:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
-Instance "m:u1:2": Length shorter than recommended for a level 3 MOSFET.
-Instance "m:u1:1": Length shorter than recommended for a level 3 MOSFET.
+Model "q1:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "q1:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
+WARNING: Less than two connections to node N004.  This node is used by VIN_DC.
+WARNING: Less than two connections to node N001.  This node is used by VIOEXPDR_TRAN.
+WARNING: Less than two connections to node N003.  This node is used by VRRX_TRAN.
+Instance "m:q1:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:q1:1": Length shorter than recommended for a level 3 MOSFET.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -14,122 +15,43 @@ Gmin = 1.07374
 Gmin = 0.115292
 Gmin = 0.0123794
 Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
 vernier = 0.5
 vernier = 0.25
-vernier = 0.125
-vernier = 0.0625
-Gmin = 0.00100083
-vernier = 0.03125
-vernier = 0.015625
-vernier = 0.0078125
-vernier = 0.00390625
-vernier = 0.00195313
-Gmin = 0.00100083
-vernier = 0.000976563
-vernier = 0.000488281
+Gmin = 6.98035e-010
+vernier = 0.333333
+Gmin = 3.38835e-010
+vernier = 0.444444
+vernier = 0.592592
+Gmin = 1.03622e-010
+vernier = 0.790123
+vernier = 1
+Gmin = 1.70576e-011
+Gmin = 1.83154e-012
+Gmin = 1.9666e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Semiconductor Device Operating Points:
-                        --- Diodes ---
-Name:    d:u1:bd       d4          d3        d:a1:12     d:a1:11
-Model:   u1:dbd         d           d         a1:dz       a1:dz
-Id:      0.00e+00   -1.42e-12    8.40e-05   -9.93e-07   -9.94e-07
-Vd:      6.84e-16   -1.41e+00    5.91e-01   -1.29e-01   -1.33e-01
-Req:     1.52e+04    1.00e+12    3.08e+02    3.83e+06    4.38e+06
-CAP:     1.86e-10    0.00e+00    0.00e+00    0.00e+00    0.00e+00
 
-Name:    d:a1:14     d:a1:10     d:a1:9      d:a1:13     d:a1:8
-Model:    a1:dy       a1:dx       a1:dx       a1:dx       a1:dx
-Id:      1.12e-02   -5.83e-13    4.22e-05    1.14e-05    7.87e-06
-Vd:      4.20e-01   -5.73e-01    5.73e-01    5.39e-01    5.30e-01
-Req:     2.31e+00    1.00e+12    6.13e+02    2.26e+03    3.28e+03
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:a1:7      d:a1:6      d:a1:5      d:a1:4      d:a1:3
-Model:    a1:dx       a1:dx       a1:dx       a1:dx       a1:dx
-Id:     -4.38e-12    6.53e-07   -1.52e-12    2.15e-06   -5.06e-13
-Vd:     -4.37e+00    4.65e-01   -1.51e+00    4.96e-01   -4.96e-01
-Req:     1.00e+12    3.96e+04    1.00e+12    1.20e+04    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:a1:2      d:a1:1      d:d2:1      d:d1:1
-Model:    a1:dx       a1:dx     d2:diode    d1:diode
-Id:     -3.14e-13   -8.10e-13    7.40e-06    6.80e-07
-Vd:     -3.04e-01   -8.00e-01    4.02e-01    2.93e-01
-Req:     1.00e+12    1.00e+12    6.17e+03    6.72e+04
-CAP:     0.00e+00    0.00e+00    2.60e-12    3.51e-13
-
-                        --- Bipolar Transistors ---
-Name:       q1        q:a1:2      q:a1:1
-Model:    bc848b       a1:qp       a1:qp
-Ib:       2.72e-05   -6.00e-08    4.54e-12
-Ic:       4.99e-05   -8.00e-06   -4.73e-12
-Vbe:      5.69e-01   -6.49e-01   -1.53e-01
-Vbc:      5.59e-01    4.15e+00    4.70e+00
-Vce:      9.98e-03   -4.80e+00   -4.85e+00
-BetaDC:   1.84e+00    1.33e+02   -1.04e+00
-Gm:       2.94e-03    3.09e-04    1.44e-12
-Rpi:      2.94e+04    4.31e+05    9.89e+11
-Rx:       1.39e+01    0.00e+00    0.00e+00
-Ro:       1.58e+02    1.15e+84    1.82e+93
-Cbe:      2.08e-11    0.00e+00    0.00e+00
-Cbc:      7.11e-10    0.00e+00    0.00e+00
-Cjs:      0.00e+00    0.00e+00    0.00e+00
-BetaAC:   8.64e+01    1.33e+02    1.42e+00
-Cbx:      0.00e+00    0.00e+00    0.00e+00
-Ft:       6.39e+05    0.00e+00    0.00e+00
-
-                        --- VDMOSFET Transistors ---
-Name:          m2
-Model:       irf7404
-Id:         -4.40e-05
-Vgs:        -5.94e-01
-Vds:        -1.49e-01
-Vth:        -1.00e+00
-Gm:          8.72e-04
-Gds:         0.00e+00
-Cgs:         2.70e-09
-Cgd:         1.28e-09
-Cbody:       7.46e-10
-
-                        --- MOSFET Transistors ---
-Name:        m:u1:2      m:u1:1
-Model:       u1:nmos     u1:pmos
-Id:         -6.84e-28    4.24e-13
-Vgs:        -4.40e+00   -4.40e+00
-Vds:         0.00e+00    6.85e-16
-Vbs:         6.84e-16    0.00e+00
-Vth:         1.62e+00   -1.07e+00
-Vdsat:       0.00e+00   -3.19e+00
-Gm:          0.00e+00    1.26e-13
-Gds:         0.00e+00    6.19e+02
-Gmb:         0.00e+00    1.45e-14
-Cbd:         0.00e+00    0.00e+00
-Cbs:         0.00e+00    0.00e+00
-Cgsov:       0.00e+00    0.00e+00
-Cgdov:       0.00e+00    0.00e+00
-Cgbov:       0.00e+00    0.00e+00
-Cgs:         0.00e+00    1.94e-09
-Cgd:         0.00e+00    1.94e-09
-Cgb:         6.51e-09    0.00e+00
-
-
-
-Date: Thu Oct 22 19:59:11 2020
-Total elapsed time: 0.505 seconds.
+Date: Fri Oct 30 13:49:09 2020
+Total elapsed time: 1.620 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 1544
+totiter = 772
 traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 78
-fillins = 89
+matrix size = 84
+fillins = 76
 solver = Alternate
-Matrix Compiler1: 11.53 KB object code size
-Matrix Compiler2: 9.38 KB object code size  2.6/3.2/[2.0]
+Matrix Compiler1:     485 opcodes
+Matrix Compiler2: 9.36 KB object code size  2.4/3.1/[2.0]
 
