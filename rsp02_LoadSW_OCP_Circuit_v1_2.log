@@ -3,55 +3,265 @@ Circuit: * \\S-MACBOOKPRO\SpaceTech_GARAGE\LTSpice\rsp02_LoadSW_OCP_Circuit_v1_2
 Iload_tran: both pins shorted together -- ignoring.
 Model "q1:nmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
 Model "q1:pmos": Oxide thickness thinner than recommended for a level 3 MOSFET.
-WARNING: Less than two connections to node N004.  This node is used by VIN_DC.
-WARNING: Less than two connections to node N001.  This node is used by VIOEXPDR_TRAN.
-WARNING: Less than two connections to node N003.  This node is used by VRRX_TRAN.
+WARNING: Less than two connections to node N003.  This node is used by VIOEXPDR_TRAN.
+WARNING: Less than two connections to node N006.  This node is used by VRRX_TRAN.
+WARNING: Less than two connections to node N005.  This node is used by VIN_AC.
+Instance "m:u1:u1:t1:ni2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t2:ni2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t3:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t3:6": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:mp1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t4:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:t4:1": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:u1:md1:6": Length shorter than recommended for a level 1 MOSFET.
 Instance "m:q1:2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:q1:1": Length shorter than recommended for a level 3 MOSFET.
+Ignoring empty pin current: Ix(u1:u1:u2:in+)
+Ignoring empty pin current: Ix(u1:u1:u2:in-)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:sdcomp:in-)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in+)
+Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in-)
+.step rtrim=80000
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
 Gmin = 1.07374
 Gmin = 0.115292
 Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
-Gmin = 1.5325e-005
-Gmin = 1.6455e-006
-Gmin = 1.76685e-007
-Gmin = 1.89714e-008
-Gmin = 2.03704e-009
 vernier = 0.5
-vernier = 0.25
-Gmin = 6.98035e-010
-vernier = 0.333333
-Gmin = 3.38835e-010
+vernier = 0.666667
+Gmin = 0.0043261
+vernier = 0.888888
 vernier = 0.444444
-vernier = 0.592592
-Gmin = 1.03622e-010
-vernier = 0.790123
-vernier = 1
-Gmin = 1.70576e-011
-Gmin = 1.83154e-012
-Gmin = 1.9666e-013
+vernier = 0.222222
+Gmin = 0.00200053
+vernier = 0.111111
+vernier = 0.0555555
+vernier = 0.0277778
+vernier = 0.0138889
+Gmin = 0.00206122
+vernier = 0.00694444
+vernier = 0.00347222
+vernier = 0.00173611
+vernier = 0.000868055
+vernier = 0.000434028
+Gmin = 0
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+vernier = 0.5
+vernier = 0.666667
+Gmin = 0.0043261
+vernier = 0.888888
+vernier = 0.444444
+vernier = 0.222222
+Gmin = 0.00200053
+vernier = 0.111111
+vernier = 0.0555555
+vernier = 0.0277778
+vernier = 0.0138889
+Gmin = 0.00206122
+vernier = 0.00694444
+vernier = 0.00347222
+vernier = 0.00173611
+vernier = 0.000868055
+vernier = 0.000434028
+Gmin = 0
+Gmin = 0
+Gmin stepping failed
 
-Date: Fri Oct 30 13:49:09 2020
-Total elapsed time: 1.620 seconds.
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 38.2576%
+Source Step = 40.1515%
+Source Step = 42.0455%
+Source Step = 43.9394%
+Source Step = 45.8333%
+vernier = 0.09375
+Source Step = 48.2008%
+Source Step = 51.0417%
+Source Step = 53.8826%
+Source Step = 56.7235%
+Source Step = 59.5644%
+vernier = 0.140625
+Source Step = 62.9735%
+Source Step = 66.4891%
+Source Step = 66.7821%
+Source Step = 66.8487%
+Source Step = 66.9152%
+Source Step = 66.9818%
+Source Step = 67.0484%
+vernier = 0.0032959
+Source Step = 67.1217%
+Source Step = 67.2215%
+Source Step = 67.3214%
+Source Step = 67.4213%
+Source Step = 67.5212%
+vernier = 0.00494385
+Source Step = 67.626%
+Source Step = 67.7758%
+Source Step = 67.9257%
+Source Step = 68.0755%
+Source Step = 68.2253%
+Source Step = 68.3751%
+vernier = 0.00741577
+Source Step = 68.5998%
+Source Step = 68.8245%
+Source Step = 69.0493%
+Source Step = 69.274%
+Source Step = 69.4987%
+vernier = 0.0111237
+Source Step = 69.8245%
+Source Step = 70.1616%
+Source Step = 70.4987%
+Source Step = 70.8358%
+Source Step = 71.1729%
+vernier = 0.0166855
+Source Step = 71.6448%
+Source Step = 72.1504%
+Source Step = 72.656%
+Source Step = 73.1616%
+Source Step = 73.6673%
+vernier = 0.0250282
+Source Step = 74.3498%
+Source Step = 75.1083%
+Source Step = 75.8667%
+Source Step = 76.6251%
+Source Step = 77.3836%
+vernier = 0.0375423
+Source Step = 78.3695%
+Source Step = 79.5072%
+Source Step = 80.6448%
+Source Step = 81.7825%
+Source Step = 82.9201%
+vernier = 0.0563135
+Source Step = 84.3422%
+Source Step = 86.0486%
+Source Step = 87.7551%
+Source Step = 89.4616%
+Source Step = 91.1681%
+vernier = 0.0140784
+Source Step = 91.424%
+Source Step = 91.8506%
+Source Step = 92.2773%
+Source Step = 92.7039%
+Source Step = 93.1305%
+vernier = 0.0211176
+Source Step = 93.7491%
+Source Step = 94.389%
+Source Step = 95.0289%
+Source Step = 95.6689%
+Source Step = 96.3088%
+vernier = 0.0316764
+Source Step = 97.2047%
+Source Step = 98.1646%
+Source Step = 99.1245%
+Source Step = 99.9164%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+vernier = 0.5
+Gmin = 0.00207692
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 0.00204484
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0.00205881
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 38.2576%
+Source Step = 40.1515%
+Source Step = 42.0455%
+Source Step = 43.9394%
+Source Step = 45.8333%
+vernier = 0.09375
+Source Step = 48.2008%
+Source Step = 51.0417%
+Source Step = 53.8826%
+Source Step = 56.7235%
+Source Step = 59.5644%
+vernier = 0.140625
+Source Step = 62.9735%
+Source Step = 67.2348%
+Source Step = 71.4962%
+Source Step = 75.7576%
+Source Step = 80.0189%
+vernier = 0.210938
+Source Step = 84.9195%
+Source Step = 91.3116%
+Source Step = 97.7036%
+Source Step = 99.9408%
+vernier = 0.0032959
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+.step rtrim=100000
+.step rtrim=110000
+.step rtrim=115000
+.step rtrim=120000
+.step rtrim=140000
+.step rtrim=240000
+
+Date: Tue Nov 24 22:19:58 2020
+Total elapsed time: 42.133 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 772
+totiter = 12192
 traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 84
-fillins = 76
-solver = Alternate
-Matrix Compiler1:     485 opcodes
-Matrix Compiler2: 9.36 KB object code size  2.4/3.1/[2.0]
+matrix size = 184
+fillins = 260
+Thread vector: 52.9/43.8[3] 0.0/0.0[0] 9.3/6.3[3] 5.9/4.3[2]  2592/500
+Matrix Compiler1: 26.97 KB object code size  12.6/8.7/[7.0]
+Matrix Compiler2: 22.67 KB object code size  7.2/9.0/[5.5]
 
