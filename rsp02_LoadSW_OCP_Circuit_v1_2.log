@@ -22,7 +22,6 @@ Ignoring empty pin current: Ix(u1:u1:sdcomp:in+)
 Ignoring empty pin current: Ix(u1:u1:sdcomp:in-)
 Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in+)
 Ignoring empty pin current: Ix(u1:u1:vrvbcomp:in-)
-.step rtrim=80000
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -50,218 +49,155 @@ Gmin = 0
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-vernier = 0.5
-vernier = 0.666667
-Gmin = 0.0043261
-vernier = 0.888888
-vernier = 0.444444
-vernier = 0.222222
-Gmin = 0.00200053
-vernier = 0.111111
-vernier = 0.0555555
-vernier = 0.0277778
-vernier = 0.0138889
-Gmin = 0.00206122
-vernier = 0.00694444
-vernier = 0.00347222
-vernier = 0.00173611
-vernier = 0.000868055
-vernier = 0.000434028
-Gmin = 0
-Gmin = 0
-Gmin stepping failed
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:   d:ic1:12    d:ic1:11    d:ic1:14    d:ic1:10     d:ic1:9
+Model:   ic1:dz      ic1:dz      ic1:dy      ic1:dx      ic1:dx
+Id:     -9.93e-07   -9.94e-07    1.35e-02   -5.84e-13    4.39e-05
+Vd:     -1.29e-01   -1.33e-01    4.25e-01   -5.74e-01    5.74e-01
+Req:     3.82e+06    4.40e+06    1.92e+00    1.00e+12    5.89e+02
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
 
-Starting source stepping with srcstepmethod=0
-Source Step = 3.0303%
-Source Step = 33.3333%
-Source Step = 38.2576%
-Source Step = 40.1515%
-Source Step = 42.0455%
-Source Step = 43.9394%
-Source Step = 45.8333%
-vernier = 0.09375
-Source Step = 48.2008%
-Source Step = 51.0417%
-Source Step = 53.8826%
-Source Step = 56.7235%
-Source Step = 59.5644%
-vernier = 0.140625
-Source Step = 62.9735%
-Source Step = 66.4891%
-Source Step = 66.7821%
-Source Step = 66.8487%
-Source Step = 66.9152%
-Source Step = 66.9818%
-Source Step = 67.0484%
-vernier = 0.0032959
-Source Step = 67.1217%
-Source Step = 67.2215%
-Source Step = 67.3214%
-Source Step = 67.4213%
-Source Step = 67.5212%
-vernier = 0.00494385
-Source Step = 67.626%
-Source Step = 67.7758%
-Source Step = 67.9257%
-Source Step = 68.0755%
-Source Step = 68.2253%
-Source Step = 68.3751%
-vernier = 0.00741577
-Source Step = 68.5998%
-Source Step = 68.8245%
-Source Step = 69.0493%
-Source Step = 69.274%
-Source Step = 69.4987%
-vernier = 0.0111237
-Source Step = 69.8245%
-Source Step = 70.1616%
-Source Step = 70.4987%
-Source Step = 70.8358%
-Source Step = 71.1729%
-vernier = 0.0166855
-Source Step = 71.6448%
-Source Step = 72.1504%
-Source Step = 72.656%
-Source Step = 73.1616%
-Source Step = 73.6673%
-vernier = 0.0250282
-Source Step = 74.3498%
-Source Step = 75.1083%
-Source Step = 75.8667%
-Source Step = 76.6251%
-Source Step = 77.3836%
-vernier = 0.0375423
-Source Step = 78.3695%
-Source Step = 79.5072%
-Source Step = 80.6448%
-Source Step = 81.7825%
-Source Step = 82.9201%
-vernier = 0.0563135
-Source Step = 84.3422%
-Source Step = 86.0486%
-Source Step = 87.7551%
-Source Step = 89.4616%
-Source Step = 91.1681%
-vernier = 0.0140784
-Source Step = 91.424%
-Source Step = 91.8506%
-Source Step = 92.2773%
-Source Step = 92.7039%
-Source Step = 93.1305%
-vernier = 0.0211176
-Source Step = 93.7491%
-Source Step = 94.389%
-Source Step = 95.0289%
-Source Step = 95.6689%
-Source Step = 96.3088%
-vernier = 0.0316764
-Source Step = 97.2047%
-Source Step = 98.1646%
-Source Step = 99.1245%
-Source Step = 99.9164%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source stepping succeeded in finding the operating point.
+Name:   d:ic1:13     d:ic1:8     d:ic1:7     d:ic1:6     d:ic1:5
+Model:   ic1:dx      ic1:dx      ic1:dx      ic1:dx      ic1:dx
+Id:      1.37e-05    7.87e-06   -4.38e-12    6.38e-07   -1.51e-12
+Vd:      5.44e-01    5.30e-01   -4.37e+00    4.65e-01   -1.50e+00
+Req:     1.88e+03    3.29e+03    1.00e+12    4.05e+04    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
 
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-vernier = 0.5
-Gmin = 0.00207692
-vernier = 0.25
-vernier = 0.125
-vernier = 0.0625
-vernier = 0.03125
-Gmin = 0.00204484
-vernier = 0.015625
-vernier = 0.0078125
-vernier = 0.00390625
-vernier = 0.00195313
-vernier = 0.000976563
-vernier = 0.000488281
-Gmin = 0.00205881
-Gmin = 0
-Gmin stepping failed
+Name:    d:ic1:4     d:ic1:3     d:ic1:2     d:ic1:1       d:u1:dp1:1
+Model:   ic1:dx      ic1:dx      ic1:dx      ic1:dx    u1:dp1:ddis1pn0_52
+Id:      2.30e-12   -1.49e-13   -3.48e-13   -4.87e-13      -6.00e-12
+Vd:      1.39e-01   -1.39e-01   -3.38e-01   -4.77e-01      -5.00e+00
+Req:     1.18e+10    9.98e+11    1.00e+12    1.00e+12       1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00       0.00e+00
 
-Starting source stepping with srcstepmethod=0
-Source Step = 3.0303%
-Source Step = 33.3333%
-Source Step = 38.2576%
-Source Step = 40.1515%
-Source Step = 42.0455%
-Source Step = 43.9394%
-Source Step = 45.8333%
-vernier = 0.09375
-Source Step = 48.2008%
-Source Step = 51.0417%
-Source Step = 53.8826%
-Source Step = 56.7235%
-Source Step = 59.5644%
-vernier = 0.140625
-Source Step = 62.9735%
-Source Step = 67.2348%
-Source Step = 71.4962%
-Source Step = 75.7576%
-Source Step = 80.0189%
-vernier = 0.210938
-Source Step = 84.9195%
-Source Step = 91.3116%
-Source Step = 97.7036%
-Source Step = 99.9408%
-vernier = 0.0032959
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source stepping succeeded in finding the operating point.
+Name:      d:u1:dp2:1         d:u1:dp3:1         d:u1:dp4:1     d:u1:u1:d1:1 d:u1:u1:d2:1
+Model: u1:dp2:ddis1pn0_52 u1:dp3:ddis1pn0_52 u1:dp4:ddis1pn0_52 u1:u1:d1:dd  u1:u1:d2:dd
+Id:        -2.39e-13          -6.00e-12           0.00e+00       -2.70e-11    -3.41e-11
+Vd:        -3.60e-03          -5.00e+00           0.00e+00       -2.60e+01    -3.31e+01
+Req:        1.73e+10           1.00e+12           1.33e+10        1.00e+12     1.00e+12
+CAP:        0.00e+00           0.00e+00           0.00e+00        0.00e+00     0.00e+00
 
-.step rtrim=100000
-.step rtrim=110000
-.step rtrim=115000
-.step rtrim=120000
-.step rtrim=140000
-.step rtrim=240000
+Name:   d:u1:u1:dzr:1   d:u1:u1:dr:1 d:u1:u1:db1:1  d:u1:u1:dzb1:1   d:u1:u1:d9:1
+Model: u1:u1:dzr:d_2_1v u1:u1:dr:dd  u1:u1:db1:dd  u1:u1:dzb1:d_2_1v u1:u1:d9:dd
+Id:       -1.50e-05      -2.23e-12     -3.88e-12       -1.00e-06       1.60e-05
+Vd:       -2.10e+00      -2.22e+00     -2.88e+00       -2.10e+00       5.64e-01
+Req:       1.71e+03       1.00e+12      1.00e+12        2.59e+04       1.62e+03
+CAP:       0.00e+00       0.00e+00      0.00e+00        0.00e+00       0.00e+00
 
-Date: Tue Nov 24 22:19:58 2020
-Total elapsed time: 42.133 seconds.
+Name:  d:u1:u1:d10:1 d:u1:u1:d3:1 d:u1:u1:dpo1:1 d:u1:u1:d4:1  d:u1:u1:d5:1
+Model: u1:u1:d10:dd  u1:u1:d3:dd  u1:u1:dpo1:dd  u1:u1:d4:d_2v u1:u1:d5:d_2v
+Id:      -4.19e-12    -4.99e-12     -2.77e-12      -2.04e-12      3.00e-05
+Vd:      -4.19e+00    -4.98e+00     -2.76e+00      -1.04e+00      4.46e-02
+Req:      1.00e+12     1.00e+12      1.00e+12       1.00e+12      8.63e+01
+CAP:      0.00e+00     0.00e+00      0.00e+00       0.00e+00      0.00e+00
+
+Name:  d:u1:u1:dp2:1 d:u1:u1:d11:1  d:u1:dp5:1   d:u1:dp6:1    d:q1:bd
+Model: u1:u1:dp2:dd  u1:u1:d11:dd  u1:dp5:d_26v u1:dp6:d_26v   q1:dbd
+Id:       1.07e-08      1.07e-08    -6.00e-12    -6.00e-12     1.72e-16
+Vd:       6.00e-01      6.00e-01    -5.00e+00    -5.00e+00    -1.30e-18
+Req:      2.42e+06      2.42e+06     1.00e+12     1.00e+12     1.52e+04
+CAP:      0.00e+00      0.00e+00     0.00e+00     0.00e+00     1.86e-10
+
+Name:     d§cr4       d§cr3      d:cr2:1     d:cr1:1
+Model:      d           d       cr2:diode   cr1:diode
+Id:      1.88e-04    1.88e-04    7.44e-06    1.79e-06
+Vd:      6.12e-01    6.12e-01    4.02e-01    3.37e-01
+Req:     1.38e+02    1.38e+02    6.14e+03    2.55e+04
+CAP:     0.00e+00    0.00e+00    2.61e-12    7.23e-13
+
+                        --- Bipolar Transistors ---
+Name:     q:ic1:2     q:ic1:1       q3
+Model:    ic1:qp      ic1:qp      bc848b
+Ib:      -5.97e-08   -2.71e-10    3.12e-04
+Ic:      -7.96e-06   -3.67e-08    5.00e-05
+Vbe:     -6.49e-01   -5.10e-01    6.36e-01
+Vbc:      4.47e+00    4.66e+00    6.32e-01
+Vce:     -5.12e+00   -5.17e+00    3.78e-03
+BetaDC:   1.33e+02    1.35e+02    1.60e-01
+Gm:       3.08e-04    1.42e-06    1.31e-02
+Rpi:      4.33e+05    9.41e+07    2.55e+03
+Rx:       0.00e+00    0.00e+00    1.39e+01
+Ro:       3.15e+89    4.96e+92    1.11e+01
+Cbe:      0.00e+00    0.00e+00    5.36e-11
+Cbc:      0.00e+00    0.00e+00    1.04e-08
+Cjs:      0.00e+00    0.00e+00    0.00e+00
+BetaAC:   1.33e+02    1.33e+02    3.35e+01
+Cbx:      0.00e+00    0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00    2.00e+05
+
+                        --- VDMOSFET Transistors ---
+Name:         m§q2
+Model:       irf7404
+Id:         -4.40e-05
+Vgs:        -5.94e-01
+Vds:        -1.43e-01
+Vth:        -1.00e+00
+Gm:          8.73e-04
+Gds:         0.00e+00
+Cgs:         2.70e-09
+Cgd:         1.29e-09
+Cbody:       7.48e-10
+
+                        --- MOSFET Transistors ---
+Name:      m:u1:u1:t1:ni2  m:u1:u1:t2:ni2   m:u1:u1:t3:6     m:u1:u1:mp1:1     m:u1:u1:t4:1
+Model:     u1:u1:t1:q_nmos u1:u1:t2:q_nmos u1:u1:t3:drvmos u1:u1:mp1:drvpmos u1:u1:t4:drvpmos
+Id:            1.00e-06        9.96e-07        1.00e-06        -1.69e-05        -1.00e-06
+Vgs:           7.17e-01        7.17e-01        1.13e+00        -1.06e+00        -1.10e+00
+Vds:           2.18e+01        2.18e+01        1.13e+00        -5.00e+00        -1.10e+00
+Vbs:           0.00e+00        0.00e+00        0.00e+00         0.00e+00         0.00e+00
+Vth:           7.00e-01        7.00e-01        1.00e+00        -1.00e+00        -1.00e+00
+Vdsat:         1.66e-02        1.65e-02        1.34e-01        -5.69e-02        -1.02e-01
+Gm:            1.21e-04        1.21e-04        1.50e-05         5.95e-04         1.97e-05
+Gds:           0.00e+00        0.00e+00        1.96e-08         3.08e-07         1.96e-08
+Gmb:           0.00e+00        0.00e+00        0.00e+00         0.00e+00         0.00e+00
+Cbd:           0.00e+00        0.00e+00        0.00e+00         0.00e+00         0.00e+00
+Cbs:           0.00e+00        0.00e+00        0.00e+00         0.00e+00         0.00e+00
+Cgsov:         0.00e+00        0.00e+00        0.00e+00         0.00e+00         0.00e+00
+Cgdov:         0.00e+00        0.00e+00        0.00e+00         0.00e+00         0.00e+00
+Cgbov:         0.00e+00        0.00e+00        0.00e+00         0.00e+00         0.00e+00
+Cgs:           0.00e+00        0.00e+00        0.00e+00         0.00e+00         0.00e+00
+Cgd:           0.00e+00        0.00e+00        0.00e+00         0.00e+00         0.00e+00
+Cgb:           0.00e+00        0.00e+00        0.00e+00         0.00e+00         0.00e+00
+
+Name:       m:u1:u1:md1:6     m:q1:2      m:q1:1
+Model:     u1:u1:md1:drvmos   q1:nmos     q1:pmos
+Id:            2.18e-05       1.30e-30   -5.37e-16
+Vgs:           2.17e+00      -4.40e+00   -4.40e+00
+Vds:           3.60e-03       0.00e+00   -8.67e-19
+Vbs:           0.00e+00      -1.30e-18    0.00e+00
+Vth:           1.00e+00       1.62e+00   -1.07e+00
+Vdsat:         1.17e+00       0.00e+00   -3.20e+00
+Gm:            1.86e-05       0.00e+00    1.59e-16
+Gds:           6.43e-03       0.00e+00    6.20e+02
+Gmb:           0.00e+00       0.00e+00    1.84e-17
+Cbd:           0.00e+00       0.00e+00    0.00e+00
+Cbs:           0.00e+00       0.00e+00    0.00e+00
+Cgsov:         0.00e+00       0.00e+00    0.00e+00
+Cgdov:         0.00e+00       0.00e+00    0.00e+00
+Cgbov:         0.00e+00       0.00e+00    0.00e+00
+Cgs:           0.00e+00       0.00e+00    1.94e-09
+Cgd:           0.00e+00       0.00e+00    1.94e-09
+Cgb:           0.00e+00       6.51e-09    0.00e+00
+
+
+
+Date: Tue Dec 01 23:02:56 2020
+Total elapsed time: 3.401 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 12192
+totiter = 1768
 traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
 matrix size = 184
-fillins = 260
-Thread vector: 52.9/43.8[3] 0.0/0.0[0] 9.3/6.3[3] 5.9/4.3[2]  2592/500
-Matrix Compiler1: 26.97 KB object code size  12.6/8.7/[7.0]
-Matrix Compiler2: 22.67 KB object code size  7.2/9.0/[5.5]
+fillins = 145
+solver = Alternate
+Thread vector: 55.4/31.9[3] 0.0/0.0[0] 10.8/6.1[3] 5.0/2.5[3]  2592/500
+Matrix Compiler1: 20.85 KB object code size
+Matrix Compiler2: 20.15 KB object code size  6.4/7.1/[5.1]
 
